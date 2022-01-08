@@ -1,0 +1,72 @@
+* {
+    //outline: 1px solid black;
+    font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.navigationMenu {
+    list-style: none;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.navigationMenu li,
+.navigationMenu a {
+    padding: 0px 2px 0px 2px;
+    display: inline-block;
+    color: black;
+    list-style: none;
+    font-size: 20px;
+    margin: 0px 5px;
+
+}
+
+.bannerSection {
+    margin: 20px;
+    text-align: center;
+    background-color: cornflowerblue;
+    padding: 80px 80px;
+}
+
+.bannerSection p {
+    color: white;
+    font-size: 18px;
+}
+
+.bannerSectionH1 {
+    text-transform: uppercase;
+    font-size: 80px;
+    font-family: Arial;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.upperCaseClass {
+    text-transform: uppercase;
+}
+
+.btnBanner {
+    font-size: 25px;
+    padding: 20px 20px;
+    border-radius: 9px;
+    font-weight: bold;
+    background-color: orangered;
+    color: white;
+    margin: 10px
+}
+
+.imageSection img{
+    width: 450px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.imageSection div {
+}
+
+.imageSection h2 {
+    text-indent: 50px;
+    font-size: 25px;
+}
