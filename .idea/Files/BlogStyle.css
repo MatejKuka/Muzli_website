@@ -1,0 +1,110 @@
+* {
+    outline: 1px solid grey;
+}
+
+
+
+body {
+    color: lightgray;
+    background: #0049af;
+    font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+h2  {
+    font-size: 36px;
+}
+
+p {
+    margin: 10px 200px;
+    margin-bottom: 24px;
+    font-size: 24px;
+    text-align: left;
+    line-height: 30px;
+
+}
+
+.headerSection span {
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: darkgrey;
+}
+
+.authorText {
+    text-decoration: none;
+    color: orangered;
+}
+
+
+.imageBackground {
+    width: 1500px;
+    margin-bottom: 25px;
+}
+
+.logoText h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+
+.logoText a {
+    text-decoration: none;
+}
+
+main {
+    text-align: center;
+}
+
+.postHeader {
+}
+
+.postHeader p {
+    text-align: center;
+}
+
+.postHeader time:before {
+    content: " • ";
+}
+
+.contentPost p:first-child{
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+    margin-left: 120px;
+    margin-right: 120px;
+
+}
+
+.quoteClass {
+    color: darkgrey;
+    font-size: 30px;
+    margin: 50px;
+}
+
+.quoteClass p {
+    font-size: 100px ;
+}
+
+.float-left {
+    float: left;
+}
+
+/*.imageBackground{
+    width: 1480px;
+    padding: 10px 10px;
+    border-radius: 5x;
+}*/
+
+hr.solid {
+    border-top: 1px solid #bbb;
+    margin: 0px 100px;
+}
+
